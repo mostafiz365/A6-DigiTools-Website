@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Resume Builder",
+    "description": "Create professional resumes with modern templates and ATS optimization.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "../src/assets/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Maker",
+    "description": "Build stunning personal portfolios with ease and customization.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Custom domains",
+      "Responsive design",
+      "SEO optimized"
+    ],
+    "icon": "../src/assets/products/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Email Marketing Tool",
+    "description": "Design and send engaging email campaigns with analytics.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Email templates",
+      "Automation",
+      "Analytics dashboard"
+    ],
+    "icon": "../src/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Social Media Scheduler",
+    "description": "Plan and schedule posts across all social media platforms.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Multi-platform posting",
+      "Auto scheduling",
+      "Insights tracking"
+    ],
+    "icon": "../src/assets/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Graphic Design Kit",
+    "description": "Create eye-catching graphics with easy drag-and-drop tools.",
+    "price": 59,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "500+ templates",
+      "Drag & drop editor",
+      "Export in HD"
+    ],
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 7,
+    "name": "Video Editor Pro",
+    "description": "Edit professional videos with powerful tools and effects.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "4K editing",
+      "Transitions & effects",
+      "Audio enhancement"
+    ],
+    "icon": "../src/assets/products/design-tool.png"
+  },
+  {
+    "id": 8,
+    "name": "SEO Optimizer",
+    "description": "Improve your website ranking with smart SEO tools.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Keyword research",
+      "On-page SEO",
+      "Competitor analysis"
+    ],
+    "icon": "../src/assets/products/portfolio.png"
+  },
+  {
+    "id": 9,
+    "name": "Online Course Builder",
+    "description": "Create and sell online courses بسهولة with built-in tools.",
+    "price": 99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Course templates",
+      "Student management",
+      "Payment integration"
+    ],
+    "icon": "../src/assets/products/social-media.png"
+  }
+]
