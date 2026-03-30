@@ -13,7 +13,7 @@ const ProductCart = ({data, selectedCarts, setSelectedCarts}) => {
     }
     return (
         <div>
-            <div className='p-6 border-2 border-[#F2F2F2] space-y-4 rounded-2xl relative'>
+            <div className='p-6 border-2 border-[#F2F2F2] space-y-4 rounded-2xl relative hover:scale-105 duration-500'>
                 <div>
                     <img className='border border-[#F2F2F2] rounded-full p-3' src={data.icon} alt="" />
                 </div>

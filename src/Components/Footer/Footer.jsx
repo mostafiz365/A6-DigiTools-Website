@@ -6,7 +6,7 @@ import { TbBrandInstagramFilled } from 'react-icons/tb';
 const Footer = () => {
     return (
         <div className='bg-[#101727]'>
-            <div className='max-w-7xl mx-auto py-28'>
+            <div className='max-w-7xl mx-auto pt-28 pb-8'>
                 <div className='grid md:grid-cols-8 lg:grid-cols-12 gap-12 mb-20'>
                     <div className='md:col-span-3 lg:col-span-4 space-y-4 text-center md:text-left'>
                         <h4 className='text-[40px] font-bold text-white'>DigiTools</h4>

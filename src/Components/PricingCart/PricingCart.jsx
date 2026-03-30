@@ -5,7 +5,7 @@ const PricingCart = ({data}) => {
     console.log(data);
     return (
         <div>
-            <div className='bg-[#F9FAFC] p-6 border-2 border-[#F2F2F2] space-y-6 rounded-2xl hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] duration-1000 text-black hover:text-white hover:duration-300'>
+            <div className='bg-[#F9FAFC] p-6 border-2 border-[#F2F2F2] space-y-6 rounded-2xl hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] duration-1000 text-black hover:text-white hover:duration-300 hover:scale-105'>
                 <div>
                     <h3 className='text-2xl font-bold'>{data.name}</h3>
                     <p className=''>{data.description}</p>
