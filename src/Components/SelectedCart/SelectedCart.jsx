@@ -1,10 +1,11 @@
 import React, {} from 'react';
 import { toast } from 'react-toastify';
 
-const SelectedCart = ({cartData, selectedCarts, setSelectedCarts}) => {
+const SelectedCart = ({cartData, selectedCarts, setSelectedCarts, handleNavCount, navCount, setNavCount}) => {
     const handleRemoveBtn = () => {
         const filterCart = selectedCarts.filter(cart => cart.id !== cartData.id);
         setSelectedCarts(filterCart);
+        handleNavCount(setNavCount( navCount - 1 ))
         toast.error(`${cartData.name} remove the cart!`);
 
     }

@@ -1,7 +1,7 @@
 import React from "react";
 import CartImg from '../../assets/products/shopping-cart.png'
 
-const NavBar = () => {
+const NavBar = ({navCount}) => {
   return (
     <div className="border-b border-[#F2F2F2] sticky top-0 bg-white z-10 ">
       <div className="navbar max-w-7xl mx-auto py-4">
@@ -18,7 +18,10 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="navbar-end flex gap-4">
+          <div className="flex items-center">
             <img src={CartImg} alt="" />
+            <span className={`badge bg-red-500 text-white text-[10px] rounded-full ${navCount === 0? 'hidden' : ''}`}>{navCount}</span>
+          </div>
           <button className="font-semibold text-[#101727]">Login</button>
           <button className="btn font-semibold text-white rounded-full px-4 py-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Get Started</button>
         </div>

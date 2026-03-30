@@ -8,7 +8,7 @@ const fetchCartData = async() => {
     return res.json();
 }
 
-const CartSection = () => {
+const CartSection = ({handleNavCount, navCount, setNavCount}) => {
     const cartDataPromise = fetchCartData();
     const [selectedBtn, setSelectedBtn] = useState('products');
     const [selectedCarts, setSelectedCarts] = useState([]);
@@ -33,11 +33,11 @@ const CartSection = () => {
                     {
                         selectedBtn === 'products' ? 
                         <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
-                            <ProductsCarts cartDataPromise={cartDataPromise} selectedCarts={selectedCarts} setSelectedCarts={setSelectedCarts}></ProductsCarts>
+                            <ProductsCarts cartDataPromise={cartDataPromise} selectedCarts={selectedCarts} setSelectedCarts={setSelectedCarts} handleNavCount={handleNavCount} navCount={navCount} setNavCount={setNavCount}></ProductsCarts>
                         </Suspense> 
                         :
                         
-                        <SelectedProductsCarts selectedCarts={selectedCarts} setSelectedCarts={setSelectedCarts}></SelectedProductsCarts>
+                        <SelectedProductsCarts selectedCarts={selectedCarts} setSelectedCarts={setSelectedCarts} handleNavCount={handleNavCount} navCount={navCount} setNavCount={setNavCount}></SelectedProductsCarts>
                     }
                     
                     

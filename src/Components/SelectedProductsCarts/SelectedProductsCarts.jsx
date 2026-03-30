@@ -3,13 +3,14 @@ import SelectedCart from "../SelectedCart/SelectedCart";
 import CartImg from "../../assets/products/shopping-cart.png"
 import { toast } from "react-toastify";
 
-const SelectedProductsCarts = ({ selectedCarts, setSelectedCarts }) => {
+const SelectedProductsCarts = ({ selectedCarts, setSelectedCarts, handleNavCount, navCount, setNavCount }) => {
   const totalPrice = selectedCarts.reduce((sum, item) => sum + item.price, 0);
   console.log(totalPrice);
 
   const handleCheckoutBtn = () => {
     setSelectedCarts([]);
     toast.success("Payment Successful!");
+    handleNavCount(setNavCount(0));
   }
 
 
@@ -33,6 +34,9 @@ const SelectedProductsCarts = ({ selectedCarts, setSelectedCarts }) => {
                 cartData={cartData}
                 selectedCarts={selectedCarts}
                 setSelectedCarts={setSelectedCarts}
+                handleNavCount={handleNavCount}
+                navCount={navCount}
+                setNavCount={setNavCount}
               ></SelectedCart>
             ))}
           </div>

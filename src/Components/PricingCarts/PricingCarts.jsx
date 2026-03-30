@@ -12,7 +12,7 @@ const PricingCarts = ({pricingDataPromise}) => {
                     <p className='text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
                 </div >
                     
-                <div className='max-w-7xl mx-auto grid md:grid-cols-3 gap-8'>
+                <div className='max-w-7xl mx-auto grid md:grid-cols-3 gap-8 px-5'>
                     {
                         pricingData.map(data => <PricingCart key={data.id} data={data}></PricingCart>)
                     }

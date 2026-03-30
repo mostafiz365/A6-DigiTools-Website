@@ -11,7 +11,7 @@ const GuideSection = () => {
                     <h3 className='text-5xl font-extrabold text-[#101727]'>Get Started in 3 Steps</h3>
                     <p className='text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
                 </div>
-                <div className='max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-right mt-10'>
+                <div className='max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-right mt-10 px-4'>
                     <div className='p-6 rounded-2xl bg-white border-2 border-[#F1F1F1] space-y-5'>
                         <div className="badge bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full px-3 py-3 w-10 h-10 font-bold">01</div>
                         <div className='bg-[#f5e8ff] p-3 rounded-full w-24 h-24 flex justify-center items-center mx-auto'>                           

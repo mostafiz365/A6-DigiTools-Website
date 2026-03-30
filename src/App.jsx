@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import Banner from "./Components/Banner/Banner";
 import CartSection from "./Components/CartSection/CartSection";
@@ -17,13 +17,19 @@ const fetchPricingData = async() => {
 function App() {
   const pricingDataPromise = fetchPricingData();
 
+  const [navCount, setNavCount] = useState(0);
+
+  const handleNavCount = () => {
+    
+  }
+
   return (
     <>
-    <NavBar></NavBar>
+    <NavBar navCount={navCount} setNavCount={setNavCount}></NavBar>
     <Banner></Banner>
     <UsersNumber></UsersNumber>
 
-    <CartSection></CartSection>
+    <CartSection handleNavCount={handleNavCount} navCount={navCount} setNavCount={setNavCount}></CartSection>
 
     <GuideSection></GuideSection>
     <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>

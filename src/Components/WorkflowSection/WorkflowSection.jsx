@@ -3,7 +3,7 @@ import React from 'react';
 const WorkflowSection = () => {
     return (
         <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>
-            <div className='text-center space-y-5 py-28'>
+            <div className='text-center space-y-5 py-28 px-4'>
                 <h3 className='text-[40px] font-extrabold text-white'>Ready to Transform Your Workflow?</h3>
                 <p className='text-white'>Join thousands of professionals who are already using DigiTools to work smarter. Start your free trial today.</p>
                 <div className='flex gap-4 justify-center items-center pt-5'>
