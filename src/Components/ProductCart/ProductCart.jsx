@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import CheckImg from '../../assets/Check.png'
+import { toast } from 'react-toastify';
 
 const ProductCart = ({data, selectedCarts, setSelectedCarts}) => {
 
@@ -8,7 +9,8 @@ const ProductCart = ({data, selectedCarts, setSelectedCarts}) => {
     const handleBuyBtn = () => {
         setBuyBtn(true);
 
-        setSelectedCarts([...selectedCarts, data])
+        setSelectedCarts([...selectedCarts, data]);
+        toast.success(`${data.name} add to cart!`);
 
     }
     return (

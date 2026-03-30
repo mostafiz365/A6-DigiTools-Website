@@ -1,6 +1,7 @@
 import React from "react";
 import SelectedCart from "../SelectedCart/SelectedCart";
 import CartImg from "../../assets/products/shopping-cart.png"
+import { toast } from "react-toastify";
 
 const SelectedProductsCarts = ({ selectedCarts, setSelectedCarts }) => {
   const totalPrice = selectedCarts.reduce((sum, item) => sum + item.price, 0);
@@ -8,6 +9,7 @@ const SelectedProductsCarts = ({ selectedCarts, setSelectedCarts }) => {
 
   const handleCheckoutBtn = () => {
     setSelectedCarts([]);
+    toast.success("Payment Successful!");
   }
 
 

@@ -1,9 +1,11 @@
 import React, {} from 'react';
+import { toast } from 'react-toastify';
 
 const SelectedCart = ({cartData, selectedCarts, setSelectedCarts}) => {
     const handleRemoveBtn = () => {
         const filterCart = selectedCarts.filter(cart => cart.id !== cartData.id);
         setSelectedCarts(filterCart);
+        toast.error(`${cartData.name} remove the cart!`);
 
     }
 
