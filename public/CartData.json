@@ -12,7 +12,7 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "../src/assets/products/writing_2327400 1.png"
+    "icon": "https://i.ibb.co.com/gLGhyQ1j/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "../src/assets/products/design-tool.png"
+    "icon": "https://i.ibb.co.com/cKFnw4d6/design-tool.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Responsive design",
       "SEO optimized"
     ],
-    "icon": "../src/assets/products/portfolio.png"
+    "icon": "https://i.ibb.co.com/chx6XJFQ/portfolio.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "Automation",
       "Analytics dashboard"
     ],
-    "icon": "../src/assets/products/operation.png"
+    "icon": "https://i.ibb.co.com/5x5MssPq/operation.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "Auto scheduling",
       "Insights tracking"
     ],
-    "icon": "../src/assets/products/social-media.png"
+    "icon": "https://i.ibb.co.com/JRRXZhdq/social-media.png"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Drag & drop editor",
       "Export in HD"
     ],
-    "icon": "../src/assets/products/writing_2327400 1.png"
+    "icon": "https://i.ibb.co.com/gLGhyQ1j/writing-2327400-1.png"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
       "Transitions & effects",
       "Audio enhancement"
     ],
-    "icon": "../src/assets/products/design-tool.png"
+    "icon": "https://i.ibb.co.com/cKFnw4d6/design-tool.png"
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@
       "On-page SEO",
       "Competitor analysis"
     ],
-    "icon": "../src/assets/products/portfolio.png"
+    "icon": "https://i.ibb.co.com/chx6XJFQ/portfolio.png"
   },
   {
     "id": 9,
@@ -132,6 +132,6 @@
       "Student management",
       "Payment integration"
     ],
-    "icon": "../src/assets/products/social-media.png"
+    "icon": "https://i.ibb.co.com/JRRXZhdq/social-media.png"
   }
 ]
