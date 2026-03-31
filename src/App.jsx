@@ -16,11 +16,9 @@ const fetchPricingData = async() => {
 
 function App() {
   const pricingDataPromise = fetchPricingData();
-
   const [navCount, setNavCount] = useState(0);
-
   const handleNavCount = () => {
-    
+       
   }
 
   return (
